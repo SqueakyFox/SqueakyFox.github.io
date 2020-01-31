@@ -1,0 +1,620 @@
+/* Server dropdown menu server boost */
+.theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am{
+    background-color: transparent;
+}
+.theme-dark .ctaBar-2UsjF2, .theme-dark .perk-2WeBWW, .theme-dark .tierBody-16Chc9, .theme-dark .tierHeaderLocked-1s2JJz, .theme-dark .barBackground-2EEiLw {
+    background-color: var(--backdrop-overlay);
+}
+.tierMarker-5HkGJ_[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37));"] {
+    background: var(--backdrop-overlay) !important;
+}
+.theme-dark .barForeground-3KglC8 {
+    background-color: rgba(244,127,255,0.9);
+}
+
+/* Server Boost in User Settings*/
+.guildHeader-3nh5RK, .subscribeTooltipWrapper-32-Ce8, .container-1gR2ZK {
+    background-color: var(--background-overlay);
+}
+.guildSubscriptionSlots-JPXXvN {
+    background-color: var(--background-overlay);
+}
+.cardWrapper-2Min21 {
+    background: var(--background-overlay);
+}
+.subscribeTooltipWrapper-32-Ce8:after {
+    border-bottom-color: var(--background-overlay);
+}
+
+/* Custom Status */
+.theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC {
+    background: var(--background-overlay);
+}
+.input-cIJ7To:focus, .theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b {
+	border-color: var(--main-color);
+}
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus {
+	border-color: transparent;
+}
+
+/* Create DM button color */
+.clickable-3rdHwn .icon-22AiRD {
+    color: var(--main-color);
+    transition: all .3s ease-in-out;
+}
+.clickable-3rdHwn:hover .icon-22AiRD {
+    color: var(--hover-color);
+    transition: all .3s ease-in-out;
+}
+
+/* Emoji Box */
+.emojiPicker-3m1S-j .categories-1feg4n {
+  background-color: var(--background-overlay);
+}
+.infoBar-U6oBFk {
+  background-color: transparent;
+}
+
+/* Reaction Color fix */
+.reaction-1ELvT8.reactionMe-23mbRf {
+    background-color: var(--main-color);
+}
+.reactionMe-23mbRf .reactionCount-2ddRoS {
+    color: rgba(255,255,255,0.5);
+}
+.reactionMe-23mbRf:hover .reactionCount-2ddRoS {
+    color: rgb(255,255,255);
+}
+
+/* Reactions List  */
+.theme-dark .reactors-Blmlhw , .theme-dark .sidebar-1-SQro {
+    background-color: transparent;
+}
+.theme-dark .reactionSelected-1pqISm {
+	background-color: var(--main-color)
+}
+
+/* Pinned Messages */
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    background-color: var(--background-overlay);
+    border-color: var(--main-color);
+}
+.theme-dark .header-ykumBX, .theme-dark .messagesPopout-24nkyi, .theme-dark .messageGroupWrapper-o-Zw7G {
+    background-color: var(--background-overlay);
+    border-color: rgba(255,255,255,0.1);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
+    border-color: var(--main-color);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+    box-shadow: none;
+    background-color: transparent;
+}
+.theme-dark .jumpButton-3DTcS_ {
+    background-color: var(--main-color);
+}
+
+/* Game activity */
+.theme-dark .notDetected-33MY4s {
+    background-color: var(--background-overlay);
+}
+.lookLink-9FtZy-.colorLink-35jkBc {
+    color: var(--main-color);
+}
+.lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {
+    background-image: linear-gradient(0deg,transparent,transparent 1px,var(--main-color) 0,var(--main-color) 2px,transparent 0);
+}
+.theme-dark .addGamePopout-2RY8Ju, .css-181m2lf-menu {
+    background-color: var(--backdrop-overlay);
+}
+.theme-dark .css-181m2lf-menu > div > div:hover {
+    background-color: var(--hover-color);
+}
+.theme-dark .button-2CgfFz, .theme-dark .button-2CgfFz:hover, .theme-dark .card-FDVird:before { /* also affects game activity list */
+    background-color: var(--background-overlay);
+}
+
+/* Verified game tick */
+.flowerStarContainer-3zDVtj > svg > path {
+    fill: var(--main-color);
+}
+
+/* Message Deletion */
+.theme-dark .message-2qRu38 {
+    background-color: var(--background-overlay);
+}
+
+/* Custom Color Picker */
+.theme-dark .colorPickerCustom-2CWBn2 {
+    background-color: var(--background-overlay);
+}
+
+/* Region Selector */
+.theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    background-color: var(--background-overlay);
+}
+.regionSelectModal-12e-57 {
+    width: 704px;
+}
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+	color: var(--main-color);
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+	border: 2px solid rgba(255,255,255,0.3);
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
+	border: 2px solid var(--main-color);
+}
+
+/* Nitro Gift box thing */
+.table-39R0Oe {
+    background-color: var(--background-overlay);
+}
+
+/* Upload Modal*/
+.theme-dark .uploadModal-2ifh8j, .theme-dark .footer-3mqk7D {
+    background-color: var(--background-overlay);
+}
+.theme-dark .override-2YgiXd .checked-3_4uQ9[style*="border-color"] {
+    background-color: transparent !important;
+}
+.theme-dark .checked-3_4uQ9[style*="border-color"] svg g polyline {
+	stroke: var(--main-color);
+}
+.theme-dark .uploadModal-2ifh8j .checked-3_4uQ9[style*="border-color"] {
+    background-color: transparent;
+}
+
+/* Server Boost in Server Settings*/
+.theme-dark .tierHeaderLocked-1a2opw, .theme-dark .background-3xPPFc {
+    background-color: var(--background-overlay);
+}
+.theme-dark .tierBody-x9kBBp {
+    background-color: var(--background-overlay);
+}
+.theme-dark .foreground-2EIns2 {
+    color: rgba(244,127,255,0.9);
+}
+.theme-dark .tierInProgress-3mBoXq {
+    background-color: var(--background-overlay);
+    border: 0.1em solid rgb(244,127,255);
+}
+
+/* Test video */
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: rgba(255,255,255,0.01);
+}
+.userSettingsVoice-iwdUCU .media-engine-video {
+    background-color: transparent;
+}
+
+/* Test Audio */
+.container-3PXSwK, .userSettingsVoice-iwdUCU .sliderBar-3DezvM.speaking-2bFhO4 {
+    background: var(--main-color) !important;
+}
+.theme-dark .progress-1IcQ3A {
+    background-color: var(--background-overlay);
+}
+.notches-1sAcEM {
+    display: none;
+}
+
+/* Billing page */
+.theme-dark .paymentPane-3bwJ6A, .theme-dark .paginator-166-09, .theme-dark .hoverablePayment-Yc6mK7.payment-xT17Mq {
+    background-color: transparent !important;
+    border: none
+}
+.theme-dark .bottomDivider-1K9Gao {
+    border-bottom: 0.05em solid var(--main-color) !important;
+}
+.theme-dark .hoverablePayment-Yc6mK7:hover, .theme-dark .expandedInfo-3kfShd, .theme-dark .payment-xT17Mq, .theme-dark .codeRedemptionRedirect-1wVR4b {
+    background-color: var(--background-overlay) !important;
+    border: 0.1em solid var(--main-color);
+}
+
+/* Gift Inventory */
+.scroller-5bBood, .theme-dark .card-7JP0BX{
+    background: transparent;
+}
+.theme-dark .header-1RC2Wb {
+    background-color: var(--background-overlay);
+}
+
+/* Subscriptions page*/
+.detailsBlock-FoDTGA {
+    background-color: var(--background-overlay);
+}
+.theme-dark .tier1Banner-1BTgv0 {
+    background-image: none;
+    background-color: var(--background-overlay);
+}
+
+/* Keybinds menu */
+.theme-dark .keyboardShortcutsModal-3piNz7 {
+    background-color: var(--background-overlay);
+}
+
+/* New Server Modal */
+.theme-light .wrapper-2ZbzR9 {
+    background: transparent;
+}
+.avatarUploaderInner-3UNxY3 {
+    background-color: var(--main-color);
+}
+.theme-light .sampleLink-KPFu3I, .regionSelect-3lf4eE button {
+    color: var(--main-color);
+}
+.theme-dark .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce {
+    border-color: var(--main-color);
+}
+.theme-dark .regionSelect-3lf4eE:hover button {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.appMount-3lHmkl .modal-yWgWj-, .theme-dark .theme-light .slide-2pHaq5, .theme-dark .theme-light .action-1lSjCi, .theme-dark .theme-light .footer-3rDWdC {
+    background: var(--background-overlay);
+}
+
+/* Quickswitcher */
+.quickswitcher-3JagVE{
+    background-color: var(--background-overlay);
+}
+.input-2VB9rf { 
+    background-color: rgba(255,255,255,0.08);
+}
+.scroller-zPkAnE {
+    background-color: transparent;
+}
+
+/* Switches */
+.themeDefault-24hCdX {
+    background-color: rgba(255,255,255,0.3);
+}
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+    background-color: var(--main-color) !important;
+}
+
+/* Checkboxes */
+.item-26Dhrx[style*="background-color"] {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+.theme-dark .checked-3_4uQ9[style*="border-color"] {
+    border-color: var(--main-color) !important;
+}
+
+/* Overlay */
+.selected-mKYnfr.option-n0icdO {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.option-n0icdO:hover {
+    background-color: var(--hover-color);
+}
+.userPopout-3XzG_A .headerSpotify-zpWxgT .content-3JfFJh a {
+    color: hsla(0,0%,100%,.8);
+}
+
+/* Notifications Settings */
+.theme-dark .override-2YgiXd:hover {
+    border-color: var(--main-color);
+}
+
+/* Screenshare Modal */
+.theme-dark .tiles-2aXG_k {
+    background-color: var(--background-overlay);
+}
+.selectorButtonSelected-1j4DmC {
+    background-color: var(--main-color);
+}
+
+/* Invite Modal */
+.container-2XeR5Z {
+    background-color: var(--background-overlay);
+}
+.inviteRow-2L02ae:hover {
+    background-color: rgba(255,255,255,0.4);
+}
+.theme-dark .header-3ZP1MY, .theme-light .header-3ZP1MY {
+    color: var(--main-color);
+}
+
+/* Invite from web browser modal */
+.theme-dark .contentWrapper-3WC1ID {
+    background: var(--background-overlay)
+}
+.pill-1dHPfk {
+    background-color: transparent;
+}
+.lookLink-9FtZy-.colorBrand-3pXr91{
+    color: var(--main-color);
+}
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+    background-image: linear-gradient(0deg,transparent,transparent 1px,var(--main-color) 0,var(--main-color) 2px,transparent 0);
+}
+
+/* Voice badge */
+.iconBadge-2wi9r4.participating-NBGDkr {
+    background-color: var(--backdrop-overlay);
+}
+
+/* hey did you know you can fuck with the upload file thing? */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+    background-color: var(--main-color);
+}
+.attachWrapper-1_D-pj {
+    z-index: 1;
+}
+
+/* Chat Bar - Leafy & KitKat */
+.scrollableContainer-2NUZem {
+    background-color: var(--background-overlay);
+    border: 2px solid rgba(255, 255, 255, 0.07);
+    transition: all .15s ease-in-out;
+}
+.scrollableContainer-2NUZem:focus-within {
+    border: 2px solid var(--main-color);
+    transition: all .15s ease-in-out;
+}
+.attachWrapper-2TRKBi {
+    border-right: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* Upload Modal - KitKat */
+.theme-dark .uploadModal-2ifh8j, .uploadModal-2ifh8j .footer-3mqk7D {
+    background-color: var(--background-overlay);
+}
+.uploadModal-2ifh8j .inner-3nWsbo {
+    border: 2px dashed var(--main-color);
+    border-radius: 3px 3px 0px 0px
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+    border: 2px solid var(--main-color);
+}
+.theme-dark .checked-3_4uQ9 {
+    background-color: var(--hover-color);
+}
+.lookInverted-2D7oAl, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY {
+    background: var(--main-color);
+    color: white;
+}
+.lookInverted-2D7oAl:hover, .lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookInverted-2D7oAl.colorGreen-29iAKY:hover{
+    background: var(--hover-color);
+}
+
+/* Links in textarea (legacy at first) */
+.fakeLink-11RWCQ, .fakeLink-26oLcc {
+    color: var(--main-color);
+}
+
+/* Blocked user "chat box" */
+.wrapper-39oAo3 {
+    background-color: var(--background-overlay);
+}
+
+/* Direct Messages label */
+.headerText-1-AnT0 {
+    overflow: visible;
+}
+
+/* Dropdown voice call region changer */
+.theme-dark .quickSelectPopout-X1hvgV {
+    background: var(--backdrop-overlay);
+}
+
+/* now playing modal */
+.theme-dark .emptyPlayers-dx3qig, .theme-dark .players-1zg2l8 {
+	background-color: var(--background-overlay);
+}
+.theme-dark .footer-3J5oP4 {
+	background-color: var(--backdrop-overlay);
+}
+.lookFilled-1Gx00P.colorWhite-rEQuAQ, .lookFilled-1Gx00P.colorGrey-2DXtkV {
+	background: var(--main-color);
+}
+.lookFilled-1Gx00P.colorWhite-rEQuAQ>.contents-18-Yxp, .lookFilled-1Gx00P.colorGrey-2DXtkV>.contents-18-Yxp {
+	color: white;
+}
+.lookFilled-1Gx00P.colorWhite-rEQuAQ:hover, .lookFilled-1Gx00P.colorGrey-2DXtkV:hover{
+	background: var(--hover-color) !important;
+}
+
+/* Stream Ended background */
+.theme-dark .container-2oTpPc, .root-25RxKh {
+	background: transparent;
+}
+
+/* Remove sroll for DMs */
+.privateChannels-1nO12o .scroller-1JbKMe{
+    overflow-x: hidden;
+}
+
+/* Format Bar */
+.toolbar-2bjZV7 {
+    background-color: var(--background-overlay);
+}
+.divider-24xeUg {
+    display: none;
+}
+.lookFilled-1Gx00P .contents-18-Yxp, .lookInverted-2D7oAl .contents-18-Yxp, .lookLink-9FtZy- .contents-18-Yxp, .lookOutlined-3sRXeN .contents-18-Yxp {
+    transition: none;
+}
+
+/* Mic muted by self change */
+.strikethrough-231d_b {
+    color: var(--channels-default);
+}
+
+/* Invalid Gift | ref: https://discord.gift/1 */
+.theme-dark .tile-2OwFgW {
+    background-color: var(--background-overlay);
+}
+.theme-dark .tile-2OwFgW:hover {
+    background-color: var(--backdrop-overlay);
+}
+
+/* server unavalible screen. bit of an easter egg. */
+.content-MLh4nU, .category-2haXBH, .channelIcon-1TvDoP, .channelName-2wrHHc {
+    background-color: var(--background-overlay);
+}
+.splashHeader-ehL7gZ:after {
+    content: "☭ WE DIED ☭";
+    color: var(--danger-color);
+    font-size: 20px;
+}
+.splashText-3jk87t {
+    font-size: 0px;
+}
+.splashText-3jk87t:after {
+    font-size: 16px
+    content: "small indie company";
+}
+.splashHeader-ehL7gZ, .splashHeader-3jk87 {
+    font-size: 0px;
+}
+
+/* Games tab */
+.scroller-1IIF0A, .scroller-2XE8rp {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.header-39GIC8 {
+	background-color: transparent;
+}
+
+/* Live */
+.theme-dark .streamPreview-2-WUWT {
+    background-color: var(--background-overlay);
+    border: 2px solid var(--main-color);
+}
+.theme-dark .previewContainer-12UlHl,
+.theme-dark .popout-1k352f {
+    background-color: var(--backdrop-overlay);
+}
+.overflow-3zpvTV {
+    background-color: var(--main-color);
+}
+
+/* Volume slider */
+.theme-dark .bubble-3we2di {
+    background-color: var(--main-color);
+}
+.theme-dark .bubble-3we2di:before {
+    border-top-color: var(--main-color);
+}
+
+/* merge this with the other shit once it's on stable. */
+/* upload modal popup background */
+.theme-dark .autocomplete-1vrmpx {
+    background-color: transparent;
+}
+/* quick react modal */
+.wrapper-2aW0bm {
+    background-color: var(--backdrop-overlay);
+}
+/* date */
+.content-1o0f9g {
+    background: rgba(255,255,255,0.07);
+    text-transform: uppercase;
+    opacity: 0.9;
+    color: rgba(255,255,255,0.5);
+}
+/* used in BOTH new message markers and date*/
+.divider-JfaTT5 {
+    margin: 10px 6px 10px 20px;
+}
+/* unread arrow/pill */
+.unreadPill-2HyYtt {
+    background-color: var(--backdrop-overlay);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.unreadPillCapStroke-7rkHbg {
+    color: var(--main-color);
+    fill: var(--backdrop-overlay)
+}
+.isUnread-3Ef-o9 {
+    border-color: var(--main-color);
+}
+/* chat bar - has the nifty side effect of being broken in 2 weeks. */
+.channelTextArea-rNsIhG {
+    background-color: transparent;
+}
+/* this is ONLY to fix a slight clipping from chat*/
+.form-2fGMdU {
+    padding-top: 8px;
+}
+/* invite */
+.wrapper-35wsBm {
+    background-color: rgba(0,0,0,0.4);
+}
+.guildName-2hvnt_ {
+    color: var(--main-color);
+}
+.statusOnline-8PnF5L {
+    background-color: var(--online-color);
+}
+.guildIcon-lQ0uiM {
+    background-color: rgba(255,255,255,0.04);
+}
+/* Remove shadow */
+.mask-1l8v16 {
+    filter: none;
+}
+/* Allow background */
+.theme-dark .container-1D34oG,
+/* Allow background - "Playing" list */
+.outer-2IVh5n {
+    background-color: transparent;
+}
+/* Shading of left side */
+.peopleList-3c4jOR {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* Thin and shade left side */
+.nowPlayingColumn-2sl4cE {
+    background-color: var(--background-overlay);
+    min-width: 240px;
+}
+/* "Now Playing" user background */
+.wrapper-Lii66c{
+    border: none !important;
+}
+/* "Now Playing" user background */
+.popoutContainer-3WC9HR,
+/* No friends playing games */
+.theme-dark .wrapper-3UweLa,
+/* Action Button */
+.actionButton-uPB8Fs.highlight-Lf97TE,
+/* "This section could be better" box. Disable something in the privacy settings to see it. */
+.consentCard-1iSxB_,
+/* No friends playing games? Not sure. */
+.emptyCard-1RJw8n
+{
+    background-color: var(--background-overlay);
+}
+.actionButton-uPB8Fs {
+    background-color: var(--background-overlay) !important;
+}
+/* Person in user list; hover */
+.peopleListItem-2nzedh:hover {
+    background-color: var(--hover-color);
+    transition: all .1s ease-in-out;
+}
+/* Action Button, hover */
+.actionButton-uPB8Fs:hover {
+    background-color: var(--main-color);
+}
+/* Remove separator from popout */
+.theme-dark .separator-2c4hi3 {
+    display: none;
+}
+/* User in Popout */
+.theme-dark .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover,
+/* "Message" in popout */
+.theme-dark .enabled-5QKLzu:hover,
+/* Popout background */
+.theme-dark .popout-3G62UL,
+/* "Now Playing" user background, hover */
+.theme-dark .popoutContainer-3WC9HR:hover {
+    background-color: var(--backdrop-overlay);
+}
