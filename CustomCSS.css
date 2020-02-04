@@ -618,11 +618,9 @@
 .theme-dark .popoutContainer-3WC9HR:hover {
     background-color: var(--backdrop-overlay);
 }
-
 .form-2fGMdU:before {
 	display: none;
 }
-
 .markup-2BOw-j code {
 	background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
 	border: 1px solid rgba(0, 0, 0, calc(var(--background-shading) * 0.8));
