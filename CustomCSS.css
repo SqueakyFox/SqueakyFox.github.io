@@ -60,7 +60,7 @@
 .theme-dark .colorPickerCustom-2CWBn2 {background-color: var(--background-overlay);}
 
 /* Region Selector */
-.theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {background-color: var(--background-overlay);}
+.theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {background-color: var(--background-overlay) !important;}
 .regionSelectModal-12e-57 {width: 704px;}
 .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
 	color: var(--main-color);}
@@ -234,19 +234,20 @@
 /* upload modal popup background */
 .theme-dark .autocomplete-1vrmpx {background-color: transparent;}
 /* quick react modal */
-.wrapper-2aW0bm {background-color: var(--backdrop-overlay);}
+.wrapper-2aW0bm {background-color: transparent;}
 /* date */
 .content-1o0f9g {background: rgba(255,255,255,0.07);text-transform: uppercase;opacity: 0.9;color: rgba(255,255,255,0.5);}
 /* used in BOTH new message markers and date*/
-.divider-JfaTT5 {margin: 10px 6px 10px 20px;}
-/* unread arrow/pill */
-.unreadPill-2HyYtt {background-color: var(--backdrop-overlay);color: var(--main-color);border: 1px solid var(--main-color);}
-.unreadPillCapStroke-7rkHbg {color: var(--main-color);fill: var(--backdrop-overlay)}
-.isUnread-3Ef-o9 {border-color: var(--main-color);}
+/* .divider-JfaTT5 {margin: 10px 6px 10px 20px;} */
+/* date/new messages seperator */
+/* .group-spacing-16 .beforeGroup-1rH1F0 {margin-top: 20px;margin-bottom: 20px;}
+.divider-JfaTT5 {height: 30px;background-color: var(--main-color);border: none;border-radius: 5px;}
+.unreadPill-2HyYtt {top: 25%;right: 50%;color: #fff;border: none;background: transparent;font-size: 90%;}
+.unreadPill-2HyYtt svg {display: none;} */
 /* chat bar - has the nifty side effect of being broken in 2 weeks. */
 .channelTextArea-rNsIhG {background-color: transparent;}
 /* this is ONLY to fix a slight clipping from chat*/
-.form-2fGMdU {margin-top: 8px;}
+.form-2fGMdU {margin-top: 1px;}
 /* invite */
 .wrapper-35wsBm {background-color: rgba(0,0,0,0.4);}
 .guildName-2hvnt_ {color: var(--main-color);}
@@ -271,7 +272,8 @@
 /* "Now Playing" user background */
 .wrapper-Lii66c{border: none !important;}
 /* "Now Playing" user background */
-.wrapper-3D2qGf,
+.wrapper-3D2qGf {background-color: calc(var(--background-shading) * 0.5);}
+.theme-dark .outer-1AjyKL.interactive-3B9GmY:hover,
 /* No friends playing games */
 .theme-dark .wrapper-3UweLa,
 /* Action Button */
@@ -307,7 +309,7 @@
 .form-2fGMdU:before {display: none;}
 
 /* code blocks */
-.markup-2BOw-j code {background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5)); border: 1px solid rgba(0, 0, 0, calc(var(--background-shading) * 0.8));}
+.markup-2BOw-j code {background-color: rgba(0, 0, 0, 0.5); border: 1px solid rgba(0, 0, 0, 0.8);}
 
 /* link color */
 .markup-2BOw-j a {color: var(--main-color);}
@@ -316,8 +318,51 @@
 .theme-dark .wrapperAudio-1jDe0Q {background-color: var(--backdrop-overlay); border-color: var(--background-overlay);}
 
 /* spoiler tags */
-.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));}
-.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.3));}
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {background-color: rgba(0, 0, 0, 0.8);}
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {background-color: rgba(0, 0, 0, 0.5);}
 
 /* the quote bar thingy */
 .blockquoteDivider-2hH8H6 {background-color: rgba(255, 255, 255, 0.2);}
+
+/* remove that fucking underline */
+.clickableHeader-2Cygs8 .username-1A8OIy:hover {text-decoration: none;}
+
+/* code boxes, inline. (` <code> `) */
+.after_inlineCode-1KfVgj, .markup-2BOw-j code.inline {padding: 3.5px 7.5px; background-color: rgba(255,255,255,0.1); border-radius: 3px; color: rgba(255,255,255,0.7); font-family: var(--code-font); line-height: 22px;}
+
+/* code boxes, block, type ( ```<class> n/ <code> ``` ) */
+.markup-2BOw-j pre>.hljs:before {height: 10px;color: rgba(255,255,255,0.3);line-height: 10px;opacity: 1;}
+.hljs:before {display: block;float: right;text-align: right;line-height: 100%;opacity: .5;}
+
+
+/* mention */
+.mentioned-xhSam7:before {background-color: var(--main-color);}
+.mentioned-xhSam7 {background-color: rgba(255,255,255,0.05);}
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode .mentioned-xhSam7:hover {background-color: rgba(255,255,255,0.08);}
+
+/* edit message selectable options */
+.operations-36ENbA>a {color: var(--main-color);}
+
+/* New TimeStamps - Cruxie */
+.timestampCozyAlt-1Hs08c {width: 2.9rem !important;}
+/* FIXES TINY LITTLE SHITTY GREY AREA BY HOME ICON - Cruxie*/
+.platform-win .sidebar-2K8pFh {border-radius: 0;}
+
+/* BD sliders were forgotten about in CV, apparently. */
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {background-color: var(--main-color);}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {background-color: rgba(255,255,255,0.3);}
+
+/* Unread thing */
+.isUnread-3Ef-o9 { border-color: var(--main-color); }
+.unreadPill-2HyYtt { background-color: var(--main-color);}
+.unreadPillCapStroke-7rkHbg { fill: var(--main-color); color: var(--main-color);}
+
+/* Emoji Picker Nitro Ending Soon Notification - Cruxie */
+.premiumRetentionNotice-2F9O9e {background-color: var(--background-overlay);}
+
+/* "sticky" emoji thing */
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU { display: none; }
+
+/*styles Mention Button*/
+.tabBar-2UKwcE .tabBarItem-1Cg-MI:after {background: var(--main-color); border-radius: 3px;}
+.tabBar-2UKwcE .tabBarItem-1Cg-MI[style*="color: rgb(255, 255, 255)"] {color: #fff !important;}
