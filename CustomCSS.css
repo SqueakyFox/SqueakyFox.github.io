@@ -1,3 +1,5 @@
+@import "code.css";
+
 /* Server dropdown menu server boost */
 .theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am {background-color: transparent;}
 .theme-dark .ctaBar-2UsjF2, .theme-dark .perk-2WeBWW, .theme-dark .tierBody-16Chc9, .theme-dark .tierHeaderLocked-1s2JJz, .theme-dark .barBackground-2EEiLw {background-color: var(--backdrop-overlay);}
