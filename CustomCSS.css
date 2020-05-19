@@ -575,3 +575,33 @@
 
 /* Spotify Popup */
 .attachPopout-36hjtN {background-color: var(--backdrop-overlay);}
+
+/* Role Menu popout */
+.submenu-2-ysNh {background-color: var(--background-overlay);}
+
+/* tickbox in role menu popout */
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS, .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {color: var(--main-color);}
+
+/* Search Menu */
+.searchResultsWrap-3-pOjs, .jumpButton-1ol35X, .searchResult-2N9RV4.expanded-ovgtuV {background-color: var(--backdrop-overlay);}
+.channelName-wvgELL, .searchResult-2N9RV4.expanded-ovgtuV {background-color: transparent;}
+.resultsBlocked-1bzMH9 {background-color: var(--background-overlay);}
+    /*gradients*/
+.searchResult-2N9RV4:before, .searchResult-2N9RV4:after {background-image: none;}
+    /*result*/
+.searchResultMessage-30QnSN.hit-1CXhXT {box-shadow: none; background-color: var(--background-overlay);}
+    /*clicked result*/
+.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {background-color: var(--background-overlay);}
+
+/* jump button pinned messages. if this gets deleted, hover for search's jump should be set to var(--main-color) */
+.layer-v9HyYc .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_:hover {background-color: var(--backdrop-overlay);}
+
+/* quick reactions */
+.button-F9qN4n.focused-3ZzkKr {box-shadow: 0 0 2px 2px var(--hover-color);}
+.button-F9qN4n, .button-F9qN4n.focused-3ZzkKr, .button-F9qN4n:hover {background-color: var(--backdrop-overlay);}
+
+/* right click server icon - was hit by a different line */
+.menu-3sdvDG.styleFlexible-wGDiIL {background-color: var(--backdrop-overlay);}
+
+/* volume slider hover */
+.slider-1PF9SW:focus .grabber-3mFHz2 {box-shadow: 0 0 3px 3px var(--hover-color);}
