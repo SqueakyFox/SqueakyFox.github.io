@@ -190,4 +190,3 @@
 .hljs[class~="xml" i]:before{content:"XML"}
 .hljs[class~="xsd" i]:before{content:"XML Schema"}
 .hljs[class~="xsl" i]:before{content:"XSL"}
-.hljs[class~="zephir" i]:before, .hljs[class~="zep" i]:before{content:"Zephir"}
